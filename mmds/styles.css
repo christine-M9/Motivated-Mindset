@@ -444,7 +444,7 @@ footer { background: linear-gradient(135deg, #4B2E2E, #B03A2E); color:#fff; text
 
 @media(max-width:768px){
   .about-container { flex-direction: column-reverse; }
-  .about-text { text-align: center; }
+  .about-text { text-align: left; }
   .vision-mission { flex-direction: column; }
 }
 
@@ -720,7 +720,7 @@ footer .footer-social a:hover {
 @media (max-width: 768px) {
   .story-wrapper {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .story-image img {
