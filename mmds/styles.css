@@ -891,4 +891,43 @@ footer .footer-social a:hover {
   color: #FFFFFF;
 }
 
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
 
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #F9E2AE;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Show hamburger only on mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;       /* hide links initially on mobile */
+    flex-direction: column;
+    width: 100%;
+    background: #4B2E2E;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .nav-links.show {
+    display: flex;       /* show when hamburger is clicked */
+  }
+
+  .nav-links li a {
+    padding: 12px 20px;
+  }
+}
