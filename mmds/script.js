@@ -102,3 +102,13 @@ document.addEventListener('DOMContentLoaded', () => {
     navLinks.classList.toggle('show');
   });
 });
+const playButton = document.getElementById('playButton');
+const video = document.getElementById('mindsetVideo');
+
+if (playButton && video) {
+  playButton.addEventListener('click', () => {
+    playButton.style.display = 'none';
+    video.setAttribute('controls', 'controls');
+    video.play();
+  });
+}
