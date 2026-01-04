@@ -1319,3 +1319,8 @@ footer .footer-social a:hover {
   }
 
 }
+@media (max-width: 768px) {
+  .play-overlay {
+    display: none;
+  }
+}

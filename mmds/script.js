@@ -105,6 +105,14 @@ document.addEventListener('DOMContentLoaded', () => {
 const playButton = document.getElementById('playButton');
 const video = document.getElementById('mindsetVideo');
 
+if (video) {
+  // MOBILE FIX
+  if (window.innerWidth <= 768) {
+    video.setAttribute('controls', 'controls');
+    if (playButton) playButton.style.display = 'none';
+  }
+}
+
 if (playButton && video) {
   playButton.addEventListener('click', () => {
     playButton.style.display = 'none';
