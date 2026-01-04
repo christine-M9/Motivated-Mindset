@@ -6,6 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
     './images/mmds5.jpeg',
     './images/mmds20.jpeg',
     './images/mmds13.jpeg',
+    './images/mmdsaw4.jpeg',
+    './images/mmds33.jpeg',
+    './images/mmds34.jpeg',
+    './images/mmds35.jpeg',
+    './images/mmds44.jpeg',
+    './images/mmds45.jpeg',
+    './images/mmds41.jpeg',
+    './images/mmds46.jpeg',
+    './images/mmds47.jpeg',
+    './images/mmds48.jpeg',
     './images/mmds4.jpeg'
   ];
 
