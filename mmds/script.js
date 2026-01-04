@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const heroImages = [
     './images/mmds1.jpeg',
     './images/mmds19.jpeg',
+    './images/mmds55.jpeg',
     './images/mmds5.jpeg',
     './images/mmds20.jpeg',
     './images/mmds13.jpeg',
@@ -15,7 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
     './images/mmds41.jpeg',
     './images/mmds46.jpeg',
     './images/mmds47.jpeg',
-    './images/mmds48.jpeg',
+    './images/mmds51.jpeg',
+    './images/mmds52.jpeg',
+    './images/mmds53.jpeg',
+    './images/mmds54.jpeg',
     './images/mmds4.jpeg'
   ];
 
