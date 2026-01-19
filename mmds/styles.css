@@ -1070,7 +1070,7 @@ footer .footer-social a:hover {
   }
 
   .fund-image {
-    width: 300px !important;
+    width: 30px !important;
     height: 300px !important;
   }
 
@@ -1324,3 +1324,143 @@ footer .footer-social a:hover {
     display: none;
   }
 }
+/* Founder Section */
+.founder-section {
+  background: #FFF9E5;
+  padding: 120px 20px;
+}
+
+.founder-container {
+  max-width: 760px;
+  margin: auto;
+}
+
+/* Title */
+.founder-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.founder-title h2 {
+  font-family: "Shippori Mincho", serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #4B2E2E;
+  letter-spacing: 0.5px;
+}
+
+/* Story flow */
+.founder-story {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* Story section (NOT BOXES) */
+.story-block {
+  position: relative;
+  padding-left: 30px;
+}
+
+/* Soft vertical line like #about */
+.story-block::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 2px;
+  height: 100%;
+  background: rgba(176, 58, 46, 0.25);
+}
+
+/* Subheadings */
+.story-block h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #B03A2E;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs — THIS is the magic */
+.story-block p {
+  font-family: "Shippori Mincho", serif;
+  font-size: 1.15rem;
+  line-height: 2;
+  color: #3f2a2a;
+  margin-bottom: 2px;
+}
+
+/* Highlight section — still elegant */
+.story-block.highlight {
+  padding-left: 30px;
+  background: none;
+}
+
+.story-block.highlight::before {
+  background: #B03A2E;
+}
+
+/* Plea section — emotional pause */
+.story-block.plea {
+  padding-left: 30px;
+}
+
+.story-block.plea p {
+  font-style: italic;
+}
+
+/* Signature */
+.founder-signature {
+  margin-top: 1px;
+  text-align: center;
+  font-family: "Shippori Mincho", serif;
+  font-size: 1.3rem;
+  color: #B03A2E;
+}
+/* Hero Image */
+.founder-hero-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.founder-hero-image img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.story-image-pause {
+  display: flex;
+  justify-content: space-between; /* 👈 left | center | right */
+  align-items: center;
+  gap: 24px;
+  margin: 100px auto 80px;
+  max-width: 700px;              /* 👈 controls spread */
+}
+
+.story-image-pause img {
+  width: 100%;
+  max-width: 330px;
+  height: 320px;              /* 👈 force same height */
+  object-fit: cover;          /* 👈 crop, don’t stretch */
+  border-radius: 14px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.story-image-pause img:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+  .story-image-pause {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
