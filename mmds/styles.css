@@ -1464,3 +1464,19 @@ footer .footer-social a:hover {
   }
 }
 
+.media-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(90deg,#B03A2E,#F9E2AE);
+  color: #4B2E2E;
+  font-weight: 600;
+  border-radius: 22px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-top: 0px;
+}
+
+.media-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(176,58,46,0.4);
+}
