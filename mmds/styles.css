@@ -1082,6 +1082,23 @@ footer .footer-social a:hover {
   .fund-list li {
     font-size: 1rem !important;
   }
+  /* Fund Section – FIXED for Mobile */
+@media (max-width: 768px) {
+  .fund-image {
+    width: 220px !important;   /* good mobile size */
+    aspect-ratio: 1 / 1;       /* keep it perfectly square */
+    height: auto !important;
+    margin: 0 auto;
+  }
+
+  .fund-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
 
   /* Achievements */
   .achievement-row,
